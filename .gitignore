@@ -6,7 +6,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+MNIST_data/
+output/
 # Distribution / packaging
 .Python
 env/
