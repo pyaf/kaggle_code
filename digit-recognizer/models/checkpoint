@@ -1,0 +1,2 @@
+model_checkpoint_path: "e50cpu.ckpt"
+all_model_checkpoint_paths: "e50cpu.ckpt"
