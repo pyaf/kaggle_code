@@ -2,7 +2,7 @@
 
 ### Architecture Used:
 
-ANN Softmax Classifier
+MLP Softmax Classifier
 - Input Layer: 784 units, with Relu,
 - 1st Hidden Layer: 128 units, with Relu,
 - 2nd Hidden Layer: 64 units, with Relu,
@@ -10,7 +10,7 @@ ANN Softmax Classifier
 - Softmax Cross Entropy for computing cost.
 - Gradient Descent and Adam Optimzation for optimization.
 
-CNN classifier
+CNN Softmax classifier
 - 2 Conv Layers
 - 2 FC Layers
 - Softmax Cross entropy for computing cost.
