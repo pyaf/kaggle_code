@@ -1,8 +1,10 @@
-DogsVsCats/
 dog-breed-identification
 mercari/
 models/
 *.csv
+*.zip
+*.jpg
+*.jpeg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
