@@ -14,6 +14,8 @@ This repository contains my kaggle solutions, some are implemented from scratch 
 
 5. Statoil Iceberg Classifier Challenge ([link](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge))
 
+6. Plant Seedlings Classification ([link](https://www.kaggle.com/c/plant-seedlings-classification))
+
 Checkout respective folders to see my solutions for above listed competitions.
 
 ## Libraries used:
