@@ -16,7 +16,7 @@
 4. keras-v1.ipynb uses keras, implements CNN with 2 Conv, 2 maxpool, 2 FC layers,
     * max score (accuracy) achieved on kaggle: 0.99185
     
-5. keras-v2.ipynb uses keras, implements CNN with 2 Conv, 2 maxpool, 2 FC layers,
-    * max score (accuracy) achieved on kaggle: 0.99700
+5. keras-v2.ipynb uses data augmentation, batch normalization, dropout in keras.
+    * max score (accuracy) achieved on kaggle: 0.99742
     
    
