@@ -1,7 +1,5 @@
 ## Digit Recognizer on MNIST Dataset
 
-### Architecture Used:
-
 ### Code
 
 1. nn.ipynb implements ANN softmax classifier from scratch.
@@ -19,4 +17,4 @@
 5. keras-v2.ipynb uses data augmentation, batch normalization, dropout in keras.
     * max score (accuracy) achieved on kaggle: 0.99742
     
-   
+Checkout [digit-recognizer](https://www.kaggle.com/c/digit-recognizer) at Kaggle for data and to know more.
