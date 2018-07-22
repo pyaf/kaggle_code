@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 
 import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 label_data = pd.read_csv('labels.csv')
@@ -27,6 +28,27 @@ def load_test_data():
         X[i] = mpimg.imread(file)
     return X
 
+def plot_training(history):
+    acc = history.history['acc']
+    val_acc = history.history['val_acc']
+    loss = history.history['loss']
+    val_loss = history.history['val_loss']
+    epochs = range(len(acc))
+    plt.figure(figsize=(10, 5))
+    plt.subplot(1, 2, 1,)
+    plt.plot(epochs, acc)
+    plt.plot(epochs, val_acc)
+    plt.legend(['train', 'val'], loc='upper left')
+    plt.title(' accuracy')
+
+
+    plt.subplot(1, 2, 2)
+    
+    plt.plot(epochs, loss)
+    plt.plot(epochs, val_loss)
+    plt.legend(['train', 'val'], loc='upper left')
+    plt.title('loss')
+    plt.show()
 #if __name__=='main':
 
     
